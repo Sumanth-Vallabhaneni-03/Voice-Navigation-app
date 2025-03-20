@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/voiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tap Anywhere to Start"
+        android:textSize="24sp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
+
+
+
+
