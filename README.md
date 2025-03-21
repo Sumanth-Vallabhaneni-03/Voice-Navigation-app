@@ -104,6 +104,6 @@ git clone https://github.com/Phanisirisha-46/Voice-Navigation-app.git
 
 ---
 
-✅ **Voice-Navigation** is committed to enhancing mobility and empowering visually impaired individuals with independence and confidence. 🌟
+✅ **Voice-Navigation** is committed to enhancing mobility and empowering visually impaired individuals with independence and confidence🌟
 
 ---
