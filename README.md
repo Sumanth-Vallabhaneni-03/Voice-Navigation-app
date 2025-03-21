@@ -107,18 +107,13 @@ git clone https://github.com/Sumanth-Vallabhaneni-03/Voice-Navigation-app.git
 Below are the screenshots showcasing the working of our mobile application. 🚀  
 
 <p>
-  <img src="https://github.com/user-attachments/assets/0d40f9ac-1f1a-44d3-9985-c009896f61cf" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/491e1664-6310-4aee-8088-8d5a2418804d" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/8a296f5b-1a07-4c4d-8890-44a900c22323" width="200">
+  <img src="https://github.com/user-attachments/assets/791ad337-aee3-4fc8-9c1f-d06712b86906" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/1e929868-d2c5-4c41-8aa3-f56c219ba01c" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/785dd713-1cf3-4e25-8c07-c68124f50174" width="200">
     <br><br>
-  <img src="https://github.com/user-attachments/assets/fddc60d1-6158-4e71-aaf7-44237de875f6" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/27b34c10-aed4-4641-865d-2ce1c5f296c3" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/e27e9e78-3d2b-44f4-940d-d333d853701c" width="200">
+  <img src="https://github.com/user-attachments/assets/bdeaea00-f0d7-479b-9dee-39bea05acb39" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/b04d0791-d892-4ea7-bdeb-1bed85e0cc68" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/79d8d513-8d9f-4ae1-aa9b-4c9481432a74" width="200">
 </p>
 
-
-
-
-
-
-
+---
