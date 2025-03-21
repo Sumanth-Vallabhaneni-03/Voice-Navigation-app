@@ -4,23 +4,15 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
-import android.speech.SpeechRecognizer;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
-import androidx.activity.EdgeToEdge;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import java.util.ArrayList;
-import java.util.Locale;
+import android.widget.LinearLayout;
+
 
 public class MainActivity extends AppCompatActivity {
     private static final int SPEECH_REQUEST_CODE = 100;
@@ -31,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button voiceButton = findViewById(R.id.voiceButton);
+        LinearLayout voiceButton = findViewById(R.id.voiceButton);
 
         // Request microphone permission
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO)
@@ -40,24 +32,18 @@ public class MainActivity extends AppCompatActivity {
                     new String[]{Manifest.permission.RECORD_AUDIO}, PERMISSION_REQUEST_CODE);
         }
 
-        // Button click to start listening
+        // Make the entire screen clickable to start voice recognition
         voiceButton.setOnClickListener(v -> startListening());
     }
 
     private void startListening() {
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
 
-        // Use free-form speech model for better accuracy
+        // Set speech recognition model
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-
-        // Set language to Indian English (en-IN)
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "en-IN");
-
-        // Improve recognition in noisy environments
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "en-IN"); // Indian English
         intent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
         intent.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, 3000);
-
-        // Display prompt
         intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Say your destination...");
 
         try {
@@ -75,17 +61,12 @@ public class MainActivity extends AppCompatActivity {
             ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
 
             if (matches != null && matches.size() > 0) {
-                // Get the recognized destination
                 String destination = matches.get(0);
-
-                // Show recognized text for debugging
                 Toast.makeText(this, "You said: " + destination, Toast.LENGTH_SHORT).show();
-
-                // Open Google Maps with the recognized destination
                 openGoogleMaps(destination);
             }
         } else {
-            Toast.makeText(this, "Sorry, I didn't catch that. Try again!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Speech recognition failed. Try again.", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -96,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mapIntent);
     }
 
-    // Handle Permission Request
+    // Handle permission request results
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
