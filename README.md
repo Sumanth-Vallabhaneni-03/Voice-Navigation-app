@@ -95,7 +95,16 @@ git clone https://github.com/Phanisirisha-46/Voice-Navigation-app.git
 4. **Audio Cues:** Follow the step-by-step audio instructions to reach your destination safely.  
 
 ---
+##  **Output Screenshots**  
 
+<img width="170" alt="image" src="https://github.com/user-attachments/assets/a40691c6-8d56-4bb3-8180-8bb50f9d76eb" />
+<img width="166" alt="image" src="https://github.com/user-attachments/assets/57c36756-feb1-4e4e-aa57-1de6cac9248f" />
+<img width="163" alt="image" src="https://github.com/user-attachments/assets/5163213a-b0cf-4162-80b3-482ba7bfff97" />
+<img width="167" alt="image" src="https://github.com/user-attachments/assets/6e8fde99-ba9c-4226-9e30-f28aad50bd78" />
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/5e23d68d-60af-43f1-a123-770da863dbe5" />
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/6511efc4-f526-4abb-a66d-6bb73e6d65ee" />
+
+---
 ## 🔒 **Permissions Required**  
 
 - **Microphone Access:** To capture and process voice input.  
