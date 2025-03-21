@@ -97,16 +97,20 @@ git clone https://github.com/Phanisirisha-46/Voice-Navigation-app.git
 ---
 ##  **Output Screenshots**  
 
-![WhatsApp Image 2025-03-21 at 21 28 14_21615e96](https://github.com/user-attachments/assets/460f5cb9-ce45-45c0-a143-cf6c50b9067c)
+<img width="210" alt="image" src="https://github.com/user-attachments/assets/b7bdf2c6-3c78-483e-9f68-1bba5b2a6e83" />
 
-<img width="170" alt="image" src="https://github.com/user-attachments/assets/a40691c6-8d56-4bb3-8180-8bb50f9d76eb" />
-<img width="166" alt="image" src="https://github.com/user-attachments/assets/57c36756-feb1-4e4e-aa57-1de6cac9248f" />
+<img width="212" alt="image" src="https://github.com/user-attachments/assets/09b40f40-1188-428c-98a6-e4af31be9995" />
+
+<img width="208" alt="image" src="https://github.com/user-attachments/assets/17293471-ae6e-4203-b88b-e73d37ac9e54" />
+
 <img width="203" alt="image" src="https://github.com/user-attachments/assets/ba343aa2-80e0-4aef-9282-9b223309821d" />
 
 <img width="206" alt="image" src="https://github.com/user-attachments/assets/d6aa276a-ee73-43e1-8551-6af890c3ba57" />
 
-<img width="158" alt="image" src="https://github.com/user-attachments/assets/5e23d68d-60af-43f1-a123-770da863dbe5" />
-<img width="158" alt="image" src="https://github.com/user-attachments/assets/6511efc4-f526-4abb-a66d-6bb73e6d65ee" />
+<img width="212" alt="image" src="https://github.com/user-attachments/assets/d8a13b47-04b0-4108-8055-b56a38e45ef5" />
+<img width="208" alt="image" src="https://github.com/user-attachments/assets/d9c7bf0a-0800-4c0c-9af6-89a592e8f4fb" />
+
+
 
 ---
 ## 🔒 **Permissions Required**  
