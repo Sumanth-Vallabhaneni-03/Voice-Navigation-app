@@ -1,14 +1,14 @@
 # 📱 Voice-Navigation-app
 A voice based navigation app
-**Empowering the Visually Impaired with Seamless Navigation**  
+**Seamless Navigation with Ease Interface**  
 
 ---
 
 ## 📚 **Project Overview**  
 **Voice-Navigation** is an intuitive and accessible Android application designed to assist visually impaired individuals by providing seamless navigation using voice commands and audio guidance. The app allows users to:  
 
-- Input source and destination using voice commands.  
-- Select the starting point by tapping anywhere on the screen.  
+- Reaching destination using voice commands.  
+- Select the Destination point by tapping anywhere on the screen.  
 - Receive real-time step-by-step audio navigation cues for safe mobility.  
 
 ---
@@ -18,10 +18,6 @@ A voice based navigation app
 ✅ **Voice-to-Text Input**  
 - Allows users to input source and destination through voice commands.  
 - Utilizes `SpeechRecognizer` API for accurate speech recognition.  
-
-✅ **Tap-to-Select Start Point**  
-- Users can manually select their starting point by tapping anywhere on the screen.  
-- Simplifies navigation without relying on GPS.  
 
 ✅ **Audio Navigation Cues**  
 - Provides clear and concise step-by-step voice instructions.  
@@ -64,7 +60,7 @@ A voice based navigation app
 
 ### **Step 1: Clone the Repository**  
 ```bash
-git clone https://github.com/Phanisirisha-46/Voice-Navigation-app.git
+git clone https://github.com/Sumanth-Vallabhaneni-03/Voice-Navigation-app.git
 ```
 
 ### **Step 2: Open in Android Studio**  
@@ -89,10 +85,9 @@ git clone https://github.com/Phanisirisha-46/Voice-Navigation-app.git
 
 ## 🎙️ **How to Use**  
 
-1. **Launch the App:** Open the app and press the **"Tap Anywhere to Start"** button.  
-2. **Voice Input:** Speak the destination or starting point.  
-3. **Manual Start Point:** Tap anywhere on the screen to choose your starting point.  
-4. **Audio Cues:** Follow the step-by-step audio instructions to reach your destination safely.  
+1. **Launch the App:** Open the app then **Tap Anywhere to Start**.  
+2. **Voice Input:** Speak the destination point.  
+3. **Audio Cues:** Follow the step-by-step audio instructions to reach your destination safely.  
 
 ---
 
@@ -104,6 +99,6 @@ git clone https://github.com/Phanisirisha-46/Voice-Navigation-app.git
 
 ---
 
-✅ **Voice-Navigation** is committed to enhancing mobility and empowering visually impaired individuals with independence and confidence🌟
+✅ **Voice-Navigation** is committed to enhancing mobility and empowering seamless interface with less Complexity🌟
 
 ---
